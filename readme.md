@@ -39,15 +39,6 @@ You can install the required packages using `pip`:
 pip install numpy pandas seaborn matplotlib scikit-learn
 ```
 
-## Project Structure
-
-```
-├── heart_disease_prediction
-│   ├── heart.csv           # Dataset for heart disease prediction
-│   └── heart_disease_model.py # Python script containing the code for data processing, feature engineering, and model training
-├── README.md               # Project documentation
-```
-
 ## How to Run
 
 **Run the Python script** to begin the analysis and model training:
