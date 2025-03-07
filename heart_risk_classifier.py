@@ -12,9 +12,6 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 
 class Heart_disease_prediction:
 
-    def __init__(self):
-        pass
-
     def read_data_heart(self):
         df = pd.read_csv('heart.csv')
         print("data", df.head())
